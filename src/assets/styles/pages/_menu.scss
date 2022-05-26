@@ -37,6 +37,9 @@ body {
 	&.orange {
 		background-color: rgba(orange, 0.6);
 	}
+	&.purple {
+		background-color: rgba(purple, 0.6);
+	}
 }
 
 .menu {
@@ -261,6 +264,48 @@ body {
 						height: $height-small;
 						@extend .top-low;
 						@extend .left-after-small;
+					}
+					&._v6 {
+						width: $width-small;
+						height: $height-small;
+						@extend .bottom;
+						@extend .right;
+					}
+				}
+			}
+		}
+		&[data-layout='v6'] {
+			#{$parent-selector} {
+				&__item {
+					&._v1 {
+						width: $width-small;
+						height: $height-small;
+						@extend .top;
+						@extend .left;
+					}
+					&._v2 {
+						width: $width-small;
+						height: $height-large;
+						@extend .top-low;
+						@extend .left;
+					}
+					&._v3 {
+						width: $width-open;
+						height: $height-open;
+						@extend .top;
+						@extend .left-after-small;
+					}
+					&._v4 {
+						width: $width-big;
+						height: $height-small;
+						@extend .bottom;
+						@extend .left;
+					}
+					&._v5 {
+						width: $width-medium;
+						height: $height-small;
+						@extend .bottom;
+						@extend .left-after-big;
 					}
 					&._v6 {
 						width: $width-small;

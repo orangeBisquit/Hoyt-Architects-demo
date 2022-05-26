@@ -1,0 +1,10 @@
+<nav class="menu">
+	<ul class="menu__list" data-layout="v1">
+		<li class="menu__item _v1">Logo</li>
+		<li class="menu__item _v2">Work</li>
+		<li class="menu__item _v3">Sarasota</li>
+		<li class="menu__item _v4">Studio</li>
+		<li class="menu__item _v5">Contact</li>
+		<li class="menu__item _v6">Lab</li>
+	</ul>
+</nav>
